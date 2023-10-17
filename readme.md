@@ -37,6 +37,7 @@ todo
 Create `.todoignore` to ignore files.
 
 ```
-.git
 .DS_Store
+.gitignore
+.gitattributes
 ```
