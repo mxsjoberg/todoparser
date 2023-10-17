@@ -4,31 +4,31 @@
 
 Download and `cd` into folder, then make `todoparser.sh` executable.
 
-```bash
+```shell
 chmod u+x todoparser.sh
 ```
 
 Copy `todoparser.sh` to `/usr/local/bin`.
 
-```bash
+```shell
 cp todoparser.sh /usr/local/bin
 ```
 
 Create `alias` in `.zshrc` (or whatever).
 
-```bash
+```shell
 alias todo=/usr/local/bin/todoparser.sh
 ```
 
 Reload.
 
-```bash
+```shell
 source ~/.zshrc
 ```
 
 Run.
 
-```bash
+```shell
 todo
 ```
 
