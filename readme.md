@@ -1,5 +1,7 @@
 # todoparser.sh
 
+![example.png](example.png)
+
 ## Usage
 
 Download and `cd` into folder, then make `todoparser.sh` executable.
