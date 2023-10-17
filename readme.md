@@ -31,3 +31,12 @@ Run.
 ```bash
 todo
 ```
+
+## .todoignore
+
+Create `.todoignore` to ignore files.
+
+```
+.git
+.DS_Store
+```
