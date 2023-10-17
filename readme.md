@@ -40,6 +40,8 @@ Create `.todoignore` to ignore files.
 .DS_Store
 .gitignore
 .gitattributes
+example.png
+
 ```
 
 ## Example
