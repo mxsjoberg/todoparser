@@ -1,7 +1,5 @@
 # todoparser.sh
 
-![example.png](example.png)
-
 ## Usage
 
 Download and `cd` into folder, then make `todoparser.sh` executable.
@@ -43,3 +41,12 @@ Create `.todoignore` to ignore files.
 .gitignore
 .gitattributes
 ```
+
+## Example
+
+```python
+# TODO: this is a todo
+```
+
+![example.png](example.png)
+
