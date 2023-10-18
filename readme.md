@@ -1,5 +1,7 @@
 # todoparser.sh
 
+A simple utility to find TODO comments in files.
+
 ## Usage
 
 Download and `cd` into folder, then make `todoparser.sh` executable.
