@@ -29,6 +29,7 @@ then
             then
                 echo "${c_yellow}$file${c_none}"
                 # grep -F -n "TODO" $file | sed "s/TODO://" | perl -ne 'print "  $_"'
+                # TODO: trim print
                 grep -F -n "TODO" $file | perl -ne 'print "  $_"'
             fi
         fi
