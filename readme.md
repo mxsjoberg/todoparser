@@ -2,6 +2,10 @@
 
 A simple utility to find TODO comments in files.
 
+```shell
+sh todoparser.sh <path/to/file>
+```
+
 ## Usage
 
 Download and `cd` into folder, then make `todoparser.sh` executable.
@@ -34,16 +38,12 @@ Run.
 todo
 ```
 
-## .todoignore
+## .todoconfig
 
-Create `.todoignore` to ignore files.
+Use `todo init` to create a `.todoconfig`-file to add files to search.
 
 ```
-.DS_Store
-.gitignore
-.gitattributes
-example.png
-
+readme.md
 ```
 
 ## Example
