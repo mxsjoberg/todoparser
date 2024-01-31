@@ -15,11 +15,11 @@ then
         for file in $(cat .todo)
         do
             echo "${c_yellow}$file${c_none}" "$(wc -l < "$file") lines"
-            grep -F -n "# TODO:" $file | sed 's/:[[:blank:]]*/: /' | sed "s/# TODO://" | perl -ne 'print "  $_"'
+            grep -F -n "# TODO" $file | sed 's/:[[:blank:]]*/: /' | sed "s/# TODO//" | perl -ne 'print "  $_"'
         done
     else
         echo "${b_cyan}$0${c_cyan}: ${b_cyan}.todo${c_cyan} not found (create it manually or 'todo init')${c_none}"
-        echo "${b_cyan}$0${c_cyan}: create it manually or 'todo init'${c_none}"
+        # echo "${b_cyan}$0${c_cyan}: create it manually or 'todo init'${c_none}"
     fi
 else
     # todo init -> to create .todo
@@ -35,8 +35,9 @@ else
         exit 0
     # find in single file
     else
+        echo ""
         echo "\n${b_cyan}$0${c_cyan}: ${c_yellow}$1${c_none}\n"
-        grep -F -n "TODO" $1 | sed 's/:[[:blank:]]*/: /' | sed "s/# TODO://" | perl -ne 'print "  $_"'
+        grep -F -n "# TODO" $1 | sed 's/:[[:blank:]]*/: /' | sed "s/# TODO//" | perl -ne 'print "  $_"'
     fi
 fi
 
