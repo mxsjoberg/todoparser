@@ -49,7 +49,7 @@ readme.md
 ## Example
 
 ```python
-# TODO: this is a todo
+# TODO this is a todo
 ```
 
 ![example.png](example.png)
