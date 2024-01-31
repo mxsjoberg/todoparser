@@ -1,29 +1,29 @@
-# todoparser.sh
+# todo.sh
 
 A simple utility to find TODO comments in files.
 
 ```shell
-sh todoparser.sh <path/to/file>
+sh todo.sh <path/to/file>
 ```
 
 ## Usage
 
-Download and `cd` into folder, then make `todoparser.sh` executable.
+Download and `cd` into folder, then make `todo.sh` executable.
 
 ```shell
-chmod u+x todoparser.sh
+chmod u+x todo.sh
 ```
 
-Copy `todoparser.sh` to `/usr/local/bin`.
+Copy `todo.sh` to `/usr/local/bin`.
 
 ```shell
-cp todoparser.sh /usr/local/bin
+cp todo.sh /usr/local/bin
 ```
 
 Create `alias` in `.zshrc` (or whatever).
 
 ```shell
-alias todo=/usr/local/bin/todoparser.sh
+alias todo=/usr/local/bin/todo.sh
 ```
 
 Reload.
@@ -38,9 +38,9 @@ Run.
 todo
 ```
 
-## .todoconfig
+## .todo
 
-Use `todo init` to create a `.todoconfig`-file to add files to search.
+Use `todo init` to create `.todo`-file in project root folder, add filenames to this file to include in search.
 
 ```
 readme.md
